@@ -1,1 +1,1 @@
-<h2 align=center>JavaScriptの勉強リポジトリ</h2>
+<h2>JavaScript入門</h2>
