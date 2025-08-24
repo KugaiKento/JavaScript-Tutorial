@@ -6,3 +6,8 @@
 | コードエディタ | Visual Studio Code    |
 | 拡張機能     | Live Server           |
 | ウェブブラウザ | Google Chrome         |
+
+## 起動方法
+```bash
+$ git clone https://github.com/KugaiKento/JavaScript-Tutorial.git
+```
