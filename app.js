@@ -1,4 +1,4 @@
-window.name = "john";
+window.name = "John";
 
 const person = {
   name: "Tom",
@@ -6,5 +6,11 @@ const person = {
     console.log("Hello " + this.name);
   },
 };
-const ref = person.hello;
-ref();
+
+const helloTom = person.hello.bind(person);
+function fn(ref) {
+  ref();
+}
+
+//hello john
+fn(helloTom);
